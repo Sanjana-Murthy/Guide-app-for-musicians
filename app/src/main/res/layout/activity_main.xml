@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_adv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="ADVANCED"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button_int" />
 
     <Button
         android:id="@+id/button3"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:text="BEGINNER"
         app:backgroundTint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/button_int"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +68,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_int"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="INTERMEDIATE"

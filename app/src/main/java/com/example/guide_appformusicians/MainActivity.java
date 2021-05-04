@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
     Button signbutton;
     private FirebaseAuth mAuth;
 
+    Button intermediate_button;
+    Button advanced;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
     }
 
 
@@ -52,6 +56,22 @@ public class MainActivity extends AppCompatActivity {
             finish();
 
         }
+        intermediate_button = (Button) findViewById(R.id.button_int);
+        advanced = findViewById(R.id.button_adv);
+        intermediate_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, intermediate.class);
+                startActivity(intent);
+            }
+        });
+        advanced.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, intermediate.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
