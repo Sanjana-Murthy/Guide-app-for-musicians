@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "634159992839",
+    "project_id": "guide-app-c89ec",
+    "storage_bucket": "guide-app-c89ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634159992839:android:181505574aa6f240661aa2",
+        "android_client_info": {
+          "package_name": "com.example.guide_appformusicians"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634159992839-fc5mvbj2ck356hj7vcfd3ppuf52pl3bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl2Z5rY-GCRIA_36ghknVVxvoepZEx7Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634159992839-fc5mvbj2ck356hj7vcfd3ppuf52pl3bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
